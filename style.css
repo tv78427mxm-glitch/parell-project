@@ -1,0 +1,47 @@
+.body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+}
+
+.videohero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.FI {
+  background: rgba(128, 128, 128, 0.442);
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem;
+  top: 30vh;
+  position: absolute;
+  left: 15vw;
+  backdrop-filter: blur(5px);
+}
+
+.nav {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+ul li {
+  list-style-type: none;
+}
